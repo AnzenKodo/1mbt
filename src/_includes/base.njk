@@ -1,0 +1,44 @@
+{% set pagename = page.fileSlug | replace('-', ' ') %}
+
+<!Doctype html>
+<html lang="en">
+
+  {% include 'head.njk' %}
+
+  <body id="#top">
+
+    <div style="
+      max-width: 40em;
+      height: 95vh;
+      margin: auto;
+      padding: 1em;
+    ">
+      {% include 'header.njk' %}
+
+      <main>
+        {# If page given title it use it or otherwise uses page name. #}
+        <h1>{{ title or pagename }}</h1>
+
+        {# Only shows when post in page. #}
+        {% if tags[0] == "posts" %}
+          {% include 'post.njk' %}
+        {% endif %}
+
+        {{ content | toc | safe }}
+
+        {{ content | safe }}
+
+        {# Shows the post in home page. #}
+        {% if page.url == '/' %}
+          {% set postslist = collections.posts %}
+          {% include 'postslist.njk' %}
+        {% endif %}
+      </main>
+
+      {% include 'footer.njk' %}
+
+    </div>
+
+  </body>
+
+</html>

@@ -1,0 +1,13 @@
+---
+title: tags
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+permalink: /{{ tag }}/
+---
+
+<p>Posts with "<em>{{ tag }}</em>" tag</p>
+
+{% set postslist = collections[ tag ] %}
+{% include "postslist.njk" %}

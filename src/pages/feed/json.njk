@@ -1,0 +1,32 @@
+---
+permalink: feed.json
+---
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "{{ manifest.name }}",
+  "language": "{{ manifest.lang }}",
+  "home_page_url": "{{ manifest.start_url }}",
+  "feed_url": "{{ manifest.start_url }}/feed.json",
+  "description": "{{ manifest.description }}",
+  "author": {
+		"name": "{{ manifest.author }}",
+		"website": {{ manifest.portfolio }}
+		"email": "{{ manifest.email }}"
+  },
+  "items": [
+    {%- for post in collections.posts | reverse %}
+      {%- set absolutePostUrl %}{{ post.url | url | absoluteUrl(manifest.start_url) }}{% endset -%}
+      {% set postname = post.data.page.fileSlug | replace('-', ' ') %}
+    {
+      "id": "{{ absolutePostUrl }}",
+      "url": "{{ absolutePostUrl }}",
+      "title": "{{ postname }}",
+      "content_html": {% if post.templateContent %}{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | dump | safe }}{% else %}""{% endif %},
+      "date_published": "{{ post.date | rssDate }}"
+    }
+    {%- if not loop.last -%}
+    ,
+    {%- endif -%}
+    {%- endfor %}
+  ]
+}

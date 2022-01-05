@@ -1,0 +1,47 @@
+{% set css %}
+  {% include "../_static/styles/reset.css" %}
+  {% include "../_static/styles/prism.css" %}
+  {% include "../_static/styles/style.css" %}
+{% endset %}
+
+{% set postTitle %}
+  {{ title or pagename }}{{ " - " + manifest.name }}
+{% endset %}
+
+{% set imgLocation %}
+  {{ manifest.start_url}}images{{page.url}}
+{% endset %}
+
+{% set meta %}
+  {% metagen
+      title=postTitle,
+      desc=manifest.description,
+      url=manifest.start_url,
+      img=imgLocation,
+      img_alt=title or pagename + ' image',
+      twitter_card_type="summary_large_image",
+      twitter_handle=manifest.author,
+      name=manifest.author,
+      generator="eleventy",
+      comments=true
+  %}
+{% endset %}
+
+<head>
+  {{ meta | safe }}
+  <meta name="theme-color" content="{{ manifest.theme_color }}">
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="feed.xml">
+  <link rel="alternate" type="application/json" title="JSON Feed" href="feed.json">
+  <link href="atom.xml" type="application/atom+xml" rel="alternate" title="Atom Feed">
+  <link rel="manifest" href="manifest.json">
+  <style>
+    {{ css | cssmin | safe }}
+    :root {
+      --font-color: {{ manifest.font_color }};
+      --bg-color: {{ manifest.background_color }};
+      --link-color: {{ manifest.theme_color }};
+    }
+  </style>
+  <script data-goatcounter="https://anzenkodo.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>

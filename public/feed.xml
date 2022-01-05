@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>IO Notes</title>
+  <subtitle>Everything about Geeky Tech</subtitle>
+  <link href="https://anzenkodo.github.io/io-notes/feed.xml" rel="self"/>
+  <link href="https://anzenkodo.github.io/io-notes/"/>
+  <updated>2022-01-05T10:16:09Z</updated>
+  <id>/</id>
+  <author>
+    <name>IO Notes</name>
+    <email>AnzenKodo@altmails.com</email>
+  </author>
+  
+  <entry>
+    <title>This is my first post</title>
+    <link href="https://anzenkodo.github.io/This-is-my-first-post.html"/>
+    <updated>2021-12-30T21:02:41Z</updated>
+    <id>https://anzenkodo.github.io/This-is-my-first-post.html</id>
+    <content type="html">&lt;h2 id=&quot;hello&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://anzenkodo.github.io/This-is-my-first-post.html#hello&quot;&gt;&lt;span&gt;Hello&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;You can also use words, to fit your writing style more closely&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://anzenkodo.github.io/This-is-my-first-post.html#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;asdfasdfsdfa asdfads;fasdfk&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;First list item
+&lt;ol&gt;
+&lt;li&gt;First nested list item
+&lt;ol&gt;
+&lt;li&gt;Second nested list item George Washington&lt;/li&gt;
+&lt;li&gt;list&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;yo bro&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;John Adams&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Thomas Jefferson&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;739&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/octo-org/octo-repo/issues/740&quot;&gt;https://github.com/octo-org/octo-repo/issues/740&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Add delight to the experience when all tasks are complete :tada:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  Here is a simple footnote[^1].
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A footnote can also have multiple lines&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://anzenkodo.github.io/This-is-my-first-post.html#fn2&quot; id=&quot;fnref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;how-the-home&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://anzenkodo.github.io/This-is-my-first-post.html#how-the-home&quot;&gt;&lt;span&gt;How the home&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;s&gt;Eleventy&lt;/s&gt; &lt;code&gt;(also known as 11ty)&lt;/code&gt; is a &lt;a href=&quot;https://ssg.com/&quot;&gt;static site generator (SSG)&lt;/a&gt; for websites. It was launched in 2017 by Zach Leatherman as a JavaScript-based alternative to Jekyll, one of the first mainstream SSGs, which is written in Ruby. Eleventy has gained a reputation as one of the most flexible and performant options for building static websites, leading to steadily rising adoption rates in the Jamstack ecosystem.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It’s important to note that Eleventy is not a JavaScript framework, and it does not include any client-side JavaScript. It takes template files specified in HTML, Markdown, or your choice of templating language, and outputs a complete, static website ready to be deployed to a web server of your choice.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;While most other SSGs are restricted to just one templating language, Eleventy supports multiple templating languages, such as HTML, Liquid, Markdown, Nunjucks, Handlebars, moustache, EJS, Haml, Pug, etc., and you can even combine them in the same project. This flexibility is one of the things that makes Eleventy stand out from its competition.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;In&lt;/em&gt; &lt;strong&gt;this&lt;/strong&gt; &lt;em&gt;&lt;strong&gt;tutorial&lt;/strong&gt;&lt;/em&gt;, you’ll develop a static website from scratch with Eleventy and deploy it to DigitalOcean’s App Platform for free.&lt;/p&gt;
+&lt;ul class=&quot;task-list&quot;&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_0&quot; checked=&quot;true&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_0&quot;&gt; hello&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Markdown&lt;/th&gt;
+&lt;th&gt;Rendered HTML&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt;Italic&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;Italic&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;- Item 1&lt;/td&gt;
+&lt;td&gt;- Item 1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;- Item 2&lt;/td&gt;
+&lt;td&gt;- Item 2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;```python&lt;/td&gt;
+&lt;td&gt;```python       \&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;.1 + .2&lt;/td&gt;
+&lt;td&gt;.1 + .2         \&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;```&lt;/td&gt;
+&lt;td&gt;```&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token doctype&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;!&lt;/span&gt;&lt;span class=&quot;token doctype-tag&quot;&gt;DOCTYPE&lt;/span&gt; &lt;span class=&quot;token name&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;html&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;head&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;	...&lt;br /&gt;	&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;link&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;https:///prism@v1.x/themes/prism.css&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;rel&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;stylesheet&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;head&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;body&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;	...&lt;br /&gt;	&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;script&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;https:///prism@v1.x/components/prism-core.min.js&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token script&quot;&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;script&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;	&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;script&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;https:///prism@v1.x/plugins/autoloader/prism-autoloader.min.js&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token script&quot;&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;script&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;body&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;html&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;hr class=&quot;footnotes-sep&quot; /&gt;
+&lt;section class=&quot;footnotes&quot;&gt;
+&lt;ol class=&quot;footnotes-list&quot;&gt;
+&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Named footnotes will still render with numbers instead of the text but allow easier identification and linking.&lt;br /&gt;
+This footnote also has been made with a different syntax using 4 spaces for new lines. &lt;a href=&quot;https://anzenkodo.github.io/This-is-my-first-post.html#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn2&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Every new line should be prefixed with 2 spaces.&lt;br /&gt;
+This allows you to have a footnote with multiple lines. &lt;a href=&quot;https://anzenkodo.github.io/This-is-my-first-post.html#fnref2&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>This is something</title>
+    <link href="https://anzenkodo.github.io/This-is-something.html"/>
+    <updated>2022-01-05T10:16:09Z</updated>
+    <id>https://anzenkodo.github.io/This-is-something.html</id>
+    <content type="html">asdfasdf
+# daf
+&lt;img src=&quot;https://anzenkodo.github.io/photo.jpg&quot; /&gt;
+
+</content>
+  </entry>
+</feed>

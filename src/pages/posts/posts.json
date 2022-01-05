@@ -1,0 +1,4 @@
+{
+  "tags": "posts",
+  "permalink": "{{page.fileSlug | replace('/root/', '/')}}.html"
+}

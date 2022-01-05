@@ -1,0 +1,27 @@
+---
+permalink: feed.atom
+---
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<id>{{ manifest.start_url }}feed.atom</id>
+	<title>{{ manifest.name }}</title>
+  <updated>2022-01-02T23:12:49.707452121+00:00</updated>
+  <author>
+		<name>{{ manifest.author }}</name>
+		<email>{{ manifest.email }}</email>
+  </author>
+	<link href="{{ manifest.start_url }}feed.atom" rel="self"/>
+	<link href="{{ manifest.start_url }}" rel="alternate"/>
+	<generator uri="{{ manifest.repository }}" version="2.3.0">{{ manifest.name }} Site</generator>
+
+	{% for post in collections.posts %}
+		{% set absolutePostUrl %}{{ post.url | url | absoluteUrl(manifest.start_url) }}{% endset %}
+		{% set postname = post.data.page.fileSlug | replace('-', ' ') %}
+		<entry>
+      <id>{{ absolutePostUrl }}</id>
+      <title>{{ postname }}</title>
+      <published>{{ post.date | rssDate }}</published>
+      <link href="{{ absolutePostUrl }}" rel="alternate"/>
+    </entry>
+	{% endfor %}
+</feed>

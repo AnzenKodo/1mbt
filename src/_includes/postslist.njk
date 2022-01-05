@@ -1,0 +1,22 @@
+<ul>
+	{% for post in postslist %}
+		{% set postname = post.data.page.fileSlug | replace('-', ' ') %}
+		<li class="title">
+			<a href="{{ post.url }}">
+				{{ postname }}
+			</a>
+		</li>
+		<p style="
+			text-indent: 2.3rem;
+			font-size: 1rem;
+			font-weight: 200;
+			">Created: {{ post.data.page.date | readableDate }} /
+
+			Tags:
+			{%- for tag in post.data.tags | filterTagList -%}
+				{%- set tagUrl %}{{ tag | slug }}/{% endset -%}
+				<a href="{{ tagUrl | url }}">{{ tag }}</a>&nbsp;
+			{%- endfor %}
+		</p>
+	{% endfor %}
+</ul>

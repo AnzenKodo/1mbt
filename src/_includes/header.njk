@@ -1,0 +1,14 @@
+<header>
+	<p style="
+		font-size: 2rem;
+		font-weight: bold;
+		margin-bottom: 0;
+		line-height: .8em;
+		">{{ manifest.name }}</p>
+	<p>
+		<a href="/">home</a>
+		{% for nav in collections.nav %}
+			<a href="{{ nav.url }}">{{ nav.data.page.fileSlug }}</a>
+		{% endfor %}
+	</p>
+</header>
