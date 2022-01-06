@@ -12,11 +12,6 @@
         </url>
     
         <url>
-            <loc>/This-is-my-first-post.html</loc>
-            <lastmod>2021-12-30T21:02:41.680Z</lastmod>
-        </url>
-    
-        <url>
             <loc>/feed.xml</loc>
             <lastmod>2021-12-31T02:08:21.442Z</lastmod>
         </url>
@@ -54,6 +49,11 @@
         <url>
             <loc>/This-is-something.html</loc>
             <lastmod>2022-01-05T10:16:09.842Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/This-is-my-first-post.html</loc>
+            <lastmod>2022-01-06T22:59:13.565Z</lastmod>
         </url>
     
 </urlset>
