@@ -6,10 +6,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - name: Build
-        uses: TartanLlama/actions-eleventy@v1.0
+      - uses: actions/setup-node@v2
         with:
-          install_dependencies: true
+          node-version: 'lts/*'
+      - run: npm install
+      - run: npm ci
+      - run: npm run build
           
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v1.1.0
