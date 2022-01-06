@@ -1,13 +1,12 @@
 module.exports = function (eleventyConfig) {
   // Markdown
-  const markdownItAnchor = require("markdown-it-anchor");
   eleventyConfig.setLibrary("md", require('markdown-it')({
     html: true,
     breaks: true,
     linkify: true
   })
-    .use(markdownItAnchor, {
-        permalink: markdownItAnchor.permalink.headerLink({ safariReaderFix: true })
+    .use(require("markdown-it-anchor"), {
+        permalink: require("markdown-it-anchor").permalink.headerLink({ safariReaderFix: true })
     })
     .use(require("markdown-it-footnote"))
     .use(require("markdown-it-task-checkbox"))
@@ -64,8 +63,7 @@ module.exports = function (eleventyConfig) {
     callbacks: {
       ready: function (err, bs) {
         bs.addMiddleware('*', (req, res) => {
-          const fs = require('fs');
-          const content_404 = fs.readFileSync('public/404.html');
+          const content_404 = require('fs').readFileSync('public/404.html');
           // Add 404 http status code in request header.
           res.writeHead(404, { 'Content-Type': 'text/html; charset=UTF-8' });
           // Provides the 404 content without redirect.
@@ -78,15 +76,13 @@ module.exports = function (eleventyConfig) {
 
   // CSS Minifier
   eleventyConfig.addFilter('cssmin', function (code) {
-    const cleanCSS = require('clean-css');
-    return new cleanCSS({}).minify(code).styles;
+    return new require('clean-css')({}).minify(code).styles;
   });
 
   // HTML Minifier
     eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
       if( outputPath && outputPath.endsWith(".html") ) {
-        const htmlmin = require('html-minifier');
-        let minified = htmlmin.minify(content, {
+        let minified = require('html-minifier').minify(content, {
           useShortDoctype: true,
           removeComments: true,
           collapseWhitespace: true
