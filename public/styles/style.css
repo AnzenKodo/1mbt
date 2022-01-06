@@ -1,30 +1,26 @@
-/* @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,800;1,400;1,800&display=swap'); */
-@import 'reset';
-@import 'prism';
-
 ::selection {
   color: var(--link-color);
   background: var(--font-color);
 }
 
 ::-webkit-scrollbar {
-  width: 1rem;
-  background: var(--font-color);
+ border: 1px solid var(--font-color);
+ width: 1rem;
 }
 
 ::-webkit-scrollar-track {
-  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+  background: var(--link-color);
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--link-color);
-  outline: var(--link-color);
+  background: var(--link-color);
 }
 
 body {
   font-family:'JetBrains Mono', Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace;
   background: var(--bg-color);
   color: var(--font-color);
+  font-variant-ligatures: normal;
 }
 
 a {
@@ -109,6 +105,8 @@ ul ul ul {
   list-style: square;
 }
 
+/* Table of Content */
+
 /* Word Style */
 
 em {
@@ -123,11 +121,41 @@ pre {
   overflow: auto;
 }
 
+mark {
+  background: var(--link-color);
+  color: var(--bg-color)
+}
+
+sub {
+  vertical-align: sub;
+}
+
+sup {
+  vertical-align: super;
+}
+
+kbd {
+  background: var(--font-color);
+  color: var(--bg-color);
+  padding: .1em;
+  border: 2px solid var(--font-color);
+  border-radius: 10px;
+}
+
+small {
+  font-size: smaller;
+}
+
 blockquote {
+  border: .1em solid var(--font-color);
   border-left: solid 1em var(--link-color);
-  padding-left: .5em;
-  background: #34495e;
+  padding-left: .5rem;
   font-style: italic;
+  margin-bottom: 1em;
+}
+
+blockquote p {
+  margin: .5rem
 }
 
 blockquote p::before, blockquote p::after {

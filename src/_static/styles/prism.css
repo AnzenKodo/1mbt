@@ -25,6 +25,7 @@ code[class*=language-],pre[class*=language-]{
     tab-size:4;
     hyphens:none;
     font-weight: bold;
+    font-variant-ligatures: initial;
 }
 pre[class*=language-]{
     padding:1em;
