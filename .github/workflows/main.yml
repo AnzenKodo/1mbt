@@ -14,8 +14,6 @@ jobs:
       - run: npm run build
           
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@master
+        uses: peaceiris/actions-gh-pages@main
         env:
-          PUBLISH_DIR: public
-          PUBLISH_BRANCH: gh-pages
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
