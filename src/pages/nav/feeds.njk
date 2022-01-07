@@ -1,6 +1,6 @@
 <ul>
 	{% for feed in collections.feeds %}
-		<li><a href="./{{ feed.url }}">
+		<li><a href="{{ feed.url }}">
 				{{ feed.data.page.fileSlug }}
 		</a></li>
 	{% endfor %}

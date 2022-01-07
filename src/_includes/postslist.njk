@@ -1,8 +1,8 @@
 <ul>
 	{% for post in postslist %}
-		{% set postname = post.data.page.fileSlug | replace('-', ' ') %}
+		{% set postname = post.fileSlug | replace('-', ' ') %}
 		<li class="title">
-			<a href="./{{ post.url }}">
+			<a href="{{ post.url }}">
 				{{ postname }}
 			</a>
 		</li>
@@ -15,7 +15,7 @@
 			Tags:
 			{%- for tag in post.data.tags | filterTagList -%}
 				{%- set tagUrl %}{{ tag | slug }}/{% endset -%}
-				<a href="./{{ tagUrl | url }}">{{ tag }}</a>&nbsp;
+				<a href="{{ tagUrl | url }}">{{ tag }}</a>&nbsp;
 			{%- endfor %}
 		</p>
 	{% endfor %}

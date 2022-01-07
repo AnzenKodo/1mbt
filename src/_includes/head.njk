@@ -31,10 +31,10 @@
   {{ meta | safe }}
   <meta name="theme-color" content="{{ manifest.theme_color }}">
   <link rel="icon" type="image/svg+xml" href="./favicon.svg">
-  <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="./feed.xml">
-  <link rel="alternate" type="application/json" title="JSON Feed" href="./feed.json">
-  <link type="application/atom+xml" rel="alternate" title="Atom Feed" href="./atom.xml">
-  <link rel="manifest" href="./manifest.json">
+  <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="feed.xml">
+  <link rel="alternate" type="application/json" title="JSON Feed" href="feed.json">
+  <link type="application/atom+xml" rel="alternate" title="Atom Feed" href="atom.xml">
+  <link rel="manifest" href="manifest.json">
   <style>
     {{ css | cssmin | safe }}
     :root {

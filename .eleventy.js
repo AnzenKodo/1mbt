@@ -134,7 +134,7 @@ module.exports = function (eleventyConfig) {
       input: 'src/pages',
       includes: '../../src/_includes',
       data: '../../src/_static',
-      output: 'public',
+      output: '_site',
       pathPrefix: '/posts/',
       layout: 'base.njk',
     },
