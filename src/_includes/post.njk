@@ -6,7 +6,7 @@
 	Tags:
 	 {%- for tag in tags | filterTagList -%}
 		 {%- set tagUrl %}{{ tag | slug }}/{% endset -%}
-		 <a href="{{ tagUrl | url }}">{{ tag }}</a>&nbsp;
+		 <a href="./{{ tagUrl | url }}">{{ tag }}</a>&nbsp;
 	 {%- endfor %}
 </p>
 

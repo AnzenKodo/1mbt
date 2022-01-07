@@ -6,9 +6,9 @@
 		line-height: .8em;
 		">{{ manifest.name }}</p>
 	<p>
-		<a href="/">home</a>
+		<a href="./">home</a>
 		{% for nav in collections.nav %}
-			<a href="{{ nav.url }}">{{ nav.data.page.fileSlug }}</a>
+			<a href="./{{ nav.url }}">{{ nav.data.page.fileSlug }}</a>
 		{% endfor %}
 	</p>
 </header>
