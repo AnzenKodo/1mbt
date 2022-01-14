@@ -1,13 +1,15 @@
-{# Shows the date & time on post section. #}
-<p style="
-	font-weight: 200;
-	">Date: {{ page.date | readableDate }} |
-	Read Time: {{ content | readingTime }} |
-	Tags:
-	 {%- for tag in tags | filterTagList -%}
-		 {%- set tagUrl %}{{ tag | slug }}/{% endset -%}
-		 <a href="/{{ tagUrl | url }}">{{ tag }}</a>&nbsp;
-	 {%- endfor %}
-</p>
-
-
+{# Only shows when post in page. #}
+{% if tags[0] == "posts" %}
+	{% set post = page %}
+	{% include 'postmeta.njk' %}
+	<figure style="
+		border: 1px solid var(--link-color);
+		padding: 1em;
+		width: 20em;
+		font-weight: bolder;
+		margin-bottom: 1em;
+	">
+		<figcaption>Table of Content</figcaption>
+		{{ content | toc | safe }}
+	</figure>
+{% endif %}

@@ -17,22 +17,7 @@
       <main>
         {# If page given title it use it or otherwise uses page name. #}
         <h1>{{ title or pagename }}</h1>
-        {# Only shows when post in page. #}
-        {% if tags[0] == "posts" %}
-          {% include 'post.njk' %}
-        {% endif %}
-
-        <figure style="
-            border: 1px solid var(--link-color);
-            padding: 1em;
-            width: 20em;
-            font-weight: bolder;
-            margin-bottom: 1em;
-          ">
-          <figcaption>Table of Content</figcaption>
-          {{ content | toc | safe }}
-        </figure>
-
+        {% include 'post.njk' %}
         {{ content | safe }}
 
         {# Shows the post in home page. #}

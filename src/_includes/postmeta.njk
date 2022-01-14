@@ -1,0 +1,18 @@
+{# Shows the date & time on post section. #}
+<p style="
+		font-size: 1rem;
+		font-weight: 400;
+		">
+		Date: {{ post.date | readableDate }} |
+		Reading Time:
+			{% if tags[0] == 'posts'%}
+				{% readingTime content %}
+			{% else %}
+				{% readingTime post.data.content %}
+			{% endif %} |
+		Tags:
+			{%- for tag in post.data.tags | filterTagList -%}
+				 {%- set tagUrl %}{{ tag | slug }}/{% endset -%}
+				 <a href="/{{ tagUrl | url }}">{{ tag }}</a>&nbsp;
+			 {%- endfor %}
+</p>
