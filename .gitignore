@@ -1,4 +1,4 @@
 node_modules
-_site
-.cache
+_site/
+.cache/
 .env
