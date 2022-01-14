@@ -63,12 +63,6 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--font-color)
 }
 
-p, code, dt {
-  font-size: 1.3rem;
-  margin-bottom: 1em;
-  line-height: 1.6em;
-}
-
 /* Link Style */
 
 a {
@@ -132,13 +126,35 @@ dd, dt {
   padding: .3em;
 }
 
+/* Checkbox */
+
+.task-list-item {
+  list-style: none;
+  margin-left: 0;
+}
+
+.task-list-item label {
+  margin-left: 1em;
+}
+
+input[type='checkbox']:disabled {
+  background-color: none;
+}
+
+input[type='checkbox']::before {
+  content: "☑️";
+}
+
+input[type='checkbox']:checked ~ input[type='checkbox']::before {
+  content: "◻️"
+}
+
 /* Table Style */
 
 th, td {
   border: 2px solid var(--font-color);
   padding: .3em;
   font-size: 1.3rem;
-  margin-bottom: 0;
 }
 
 th {
@@ -146,7 +162,6 @@ th {
   background: var(--font-color);
   color: var(--bg-color);
   text-align: center;
-  margin-bottom: 0;
 }
 
 /* Word Style */
@@ -195,8 +210,9 @@ blockquote {
   border-left: solid 1em var(--link-color);
   padding-left: .5rem;
   font-style: italic;
-  margin-bottom: 1em;
 }
+
+/* Block Style */
 
 blockquote p {
   margin: .5rem
@@ -209,4 +225,23 @@ blockquote p::before, blockquote p::after {
 code {
   padding: .2em;
   background: #34495e;
+}
+
+p, code, dt {
+  font-size: 1.3rem;
+  line-height: 1.6em;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Margin Bottom */
+
+h1, h2, h3, h4, h5, h6, p, code, dl, table, ul, ol, blockquote {
+  margin-bottom: 1rem;
+}
+
+h1, th, td {
+  margin-bottom: 0;
 }
