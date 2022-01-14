@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://anzenkodo.github.io/io-notes/feed.atom</id>
-	<title>IO Notes</title>
+	<title>io notes</title>
   <updated>2022-01-02T23:12:49.707452121+00:00</updated>
   <author>
 		<name>AnzenKodo</name>
@@ -9,7 +9,7 @@
   </author>
 	<link href="https://anzenkodo.github.io/io-notes/feed.atom" rel="self"/>
 	<link href="https://anzenkodo.github.io/io-notes/" rel="alternate"/>
-	<generator uri="https://github.com/AnzenKodo/io-note" version="2.3.0">IO Notes Site</generator>
+	<generator uri="https://github.com/AnzenKodo/io-note" version="2.3.0">io notes Site</generator>
 
 	
 		
