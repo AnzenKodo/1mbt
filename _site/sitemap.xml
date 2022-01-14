@@ -1,59 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
-        <url>
-            <loc>/</loc>
-            <lastmod>2021-12-30T20:22:03.307Z</lastmod>
-        </url>
+        
+        
+            <url>
+                <loc>/</loc>
+                <lastmod>2021-12-30T20:22:03.307Z</lastmod>
+            </url>
+        
     
-        <url>
-            <loc>/search.html</loc>
-            <lastmod>2021-12-30T20:22:03.308Z</lastmod>
-        </url>
+        
+        
+            <url>
+                <loc>/search.html</loc>
+                <lastmod>2021-12-30T20:22:03.308Z</lastmod>
+            </url>
+        
     
-        <url>
-            <loc>/feed.xml</loc>
-            <lastmod>2021-12-31T02:08:21.442Z</lastmod>
-        </url>
+        
+        
     
-        <url>
-            <loc>/about.html</loc>
-            <lastmod>2021-12-31T04:23:45.082Z</lastmod>
-        </url>
+        
+        
+            <url>
+                <loc>/about.html</loc>
+                <lastmod>2021-12-31T04:23:45.082Z</lastmod>
+            </url>
+        
     
-        <url>
-            <loc>/all/</loc>
-            <lastmod>2022-01-02T20:03:47.030Z</lastmod>
-        </url>
+        
+        
     
-        <url>
-            <loc>/feed.json</loc>
-            <lastmod>2022-01-02T22:07:39.143Z</lastmod>
-        </url>
+        
+        
     
-        <url>
-            <loc>/tags.html</loc>
-            <lastmod>2022-01-02T23:02:05.255Z</lastmod>
-        </url>
+        
+        
+            <url>
+                <loc>/tags.html</loc>
+                <lastmod>2022-01-02T23:02:05.255Z</lastmod>
+            </url>
+        
     
-        <url>
-            <loc>/feed.atom</loc>
-            <lastmod>2022-01-03T00:15:55.659Z</lastmod>
-        </url>
+        
+        
     
-        <url>
-            <loc>/This-is-something.html</loc>
-            <lastmod>2022-01-05T10:16:09.842Z</lastmod>
-        </url>
+        
+        
     
-        <url>
-            <loc>/This-is-my-first-post.html</loc>
-            <lastmod>2022-01-06T22:59:13.565Z</lastmod>
-        </url>
+        
+        
+            <url>
+                <loc>/This-is-something.html</loc>
+                <lastmod>2022-01-05T10:16:09.842Z</lastmod>
+            </url>
+        
     
-        <url>
-            <loc>/feeds.html</loc>
-            <lastmod>2022-01-07T02:56:45.243Z</lastmod>
-        </url>
+        
+        
+            <url>
+                <loc>/feeds.html</loc>
+                <lastmod>2022-01-07T02:56:45.243Z</lastmod>
+            </url>
+        
+    
+        
+        
+            <url>
+                <loc>/This-is-my-first-post.html</loc>
+                <lastmod>2022-01-14T02:53:07.368Z</lastmod>
+            </url>
+        
     
 </urlset>

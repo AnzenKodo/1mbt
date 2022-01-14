@@ -4,7 +4,7 @@
   <subtitle>Everything about Geeky Tech</subtitle>
   <link href="https://anzenkodo.github.io/io-notes/feed.xml" rel="self"/>
   <link href="https://anzenkodo.github.io/io-notes/"/>
-  <updated>2022-01-06T22:59:13Z</updated>
+  <updated>2022-01-14T02:53:07Z</updated>
   <id>/</id>
   <author>
     <name>io notes</name>
@@ -26,7 +26,7 @@
   <entry>
     <title>This is my first post</title>
     <link href="https://anzenkodo.github.io/This-is-my-first-post.html"/>
-    <updated>2022-01-06T22:59:13Z</updated>
+    <updated>2022-01-14T02:53:07Z</updated>
     <id>https://anzenkodo.github.io/This-is-my-first-post.html</id>
     <content type="html">&lt;h2 id=&quot;what-is-node.js%3F&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://anzenkodo.github.io/This-is-my-first-post.html#what-is-node.js%3F&quot;&gt;What is Node.js?&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Node.js is an open-source and cross-platform JavaScript runtime environment. It is a popular tool for almost any kind of project!&lt;/p&gt;
