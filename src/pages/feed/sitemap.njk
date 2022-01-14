@@ -7,7 +7,7 @@ permalink: sitemap.xml
         {% set regx = r/.html/g %}
         {% if regx.test(page.url) or page.url == '/' %}
             <url>
-                <loc>{{ site.url }}{{ page.url | url }}</loc>
+                <loc>{{ manifest.start_url }}{{ page.url.replace("/", '') }}</loc>
                 <lastmod>{{ page.date.toISOString() }}</lastmod>
             </url>
         {% endif %}

@@ -2,8 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>io notes</title>
   <subtitle>Everything about Geeky Tech</subtitle>
-  <link href="https://anzenkodo.github.io/io-notes/feed.xml" rel="self"/>
-  <link href="https://anzenkodo.github.io/io-notes/"/>
+  <link href="https://ionote.vercel.app/feed.xml" rel="self"/>
+  <link href="https://ionote.vercel.app/"/>
   <updated>2022-01-14T02:53:07Z</updated>
   <id>/</id>
   <author>
@@ -13,29 +13,29 @@
   
   <entry>
     <title>This is something</title>
-    <link href="https://anzenkodo.github.io/This-is-something.html"/>
+    <link href="https://ionote.vercel.app/This-is-something.html"/>
     <updated>2022-01-05T10:16:09Z</updated>
-    <id>https://anzenkodo.github.io/This-is-something.html</id>
+    <id>https://ionote.vercel.app/This-is-something.html</id>
     <content type="html">asdfasdf
 # daf
-&lt;img src=&quot;https://anzenkodo.github.io/photo.jpg&quot; /&gt;
+&lt;img src=&quot;https://ionote.vercel.app/photo.jpg&quot; /&gt;
 
 </content>
   </entry>
   
   <entry>
     <title>This is my first post</title>
-    <link href="https://anzenkodo.github.io/This-is-my-first-post.html"/>
+    <link href="https://ionote.vercel.app/This-is-my-first-post.html"/>
     <updated>2022-01-14T02:53:07Z</updated>
-    <id>https://anzenkodo.github.io/This-is-my-first-post.html</id>
-    <content type="html">&lt;h2 id=&quot;what-is-node.js%3F&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://anzenkodo.github.io/This-is-my-first-post.html#what-is-node.js%3F&quot;&gt;What is Node.js?&lt;/a&gt;&lt;/h2&gt;
+    <id>https://ionote.vercel.app/This-is-my-first-post.html</id>
+    <content type="html">&lt;h2 id=&quot;what-is-node.js%3F&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://ionote.vercel.app/This-is-my-first-post.html#what-is-node.js%3F&quot;&gt;What is Node.js?&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Node.js is an open-source and cross-platform JavaScript runtime environment. It is a popular tool for almost any kind of project!&lt;/p&gt;
 &lt;p&gt;Node.js runs the V8 JavaScript engine, the core of Google Chrome, outside of the browser. This allows Node.js to be very performant.&lt;/p&gt;
 &lt;p&gt;A Node.js app runs in a single process, without creating a new thread for every request.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Node.js provides a set of asynchronous I/O primitives in its standard library that prevent JavaScript code from blocking and generally, libraries in Node.js are written using non-blocking paradigms, making blocking behavior the exception rather than the norm.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h1 id=&quot;what-is-javascript%3F&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://anzenkodo.github.io/This-is-my-first-post.html#what-is-javascript%3F&quot;&gt;What is JavaScript?&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&quot;what-is-javascript%3F&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://ionote.vercel.app/This-is-my-first-post.html#what-is-javascript%3F&quot;&gt;What is JavaScript?&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;JavaScript is a scripting language that enables you to dynamically update content, control multimedia, animate images, and pretty much everything else.&lt;/p&gt;
 &lt;p&gt;Store useful values inside variables. In the above example for instance, we ask for a new name to be entered then store that name in a variable called name&lt;/p&gt;
 </content>

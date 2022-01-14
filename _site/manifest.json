@@ -1,11 +1,11 @@
 {
   "name": "io notes",
   "short_name": "io notes",
-  "start_url": "https://anzenkodo.github.io/io-notes/",
+  "start_url": "https://ionote.vercel.app/",
   "description": "Everything about Geeky Tech",
   "author": "AnzenKodo",
   "email": "AnzenKodo@altmails.com",
-  "portfolio": "https://ionote.vercel.app/",
+  "portfolio": "https://anzenkodo.github.io/AnzenKodo",
   "lang": "en-US",
   "font": "JetBrains Mono",
   "repository": "https://github.com/AnzenKodo/io-note",

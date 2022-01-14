@@ -1,33 +1,33 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<id>https://anzenkodo.github.io/io-notes/feed.atom</id>
+	<id>https://ionote.vercel.app/feed.atom</id>
 	<title>io notes</title>
   <updated>2022-01-02T23:12:49.707452121+00:00</updated>
   <author>
 		<name>AnzenKodo</name>
 		<email>AnzenKodo@altmails.com</email>
   </author>
-	<link href="https://anzenkodo.github.io/io-notes/feed.atom" rel="self"/>
-	<link href="https://anzenkodo.github.io/io-notes/" rel="alternate"/>
+	<link href="https://ionote.vercel.app/feed.atom" rel="self"/>
+	<link href="https://ionote.vercel.app/" rel="alternate"/>
 	<generator uri="https://github.com/AnzenKodo/io-note" version="2.3.0">io notes Site</generator>
 
 	
 		
 		
 		<entry>
-      <id>https://anzenkodo.github.io/This-is-something.html</id>
+      <id>https://ionote.vercel.app/This-is-something.html</id>
       <title>This is something</title>
       <published>2022-01-05T10:16:09Z</published>
-      <link href="https://anzenkodo.github.io/This-is-something.html" rel="alternate"/>
+      <link href="https://ionote.vercel.app/This-is-something.html" rel="alternate"/>
     </entry>
 	
 		
 		
 		<entry>
-      <id>https://anzenkodo.github.io/This-is-my-first-post.html</id>
+      <id>https://ionote.vercel.app/This-is-my-first-post.html</id>
       <title>This is my first post</title>
       <published>2022-01-14T02:53:07Z</published>
-      <link href="https://anzenkodo.github.io/This-is-my-first-post.html" rel="alternate"/>
+      <link href="https://ionote.vercel.app/This-is-my-first-post.html" rel="alternate"/>
     </entry>
 	
 </feed>
