@@ -1,60 +1,17 @@
----
-tags: hello
----
+## What is Node.js?
 
-## Hello
-### Hi
+Node.js is an open-source and cross-platform JavaScript runtime environment. It is a popular tool for almost any kind of project!
 
-![image](photo.jpg =100x200)
+Node.js runs the V8 JavaScript engine, the core of Google Chrome, outside of the browser. This allows Node.js to be very performant.
 
-footnote [^1]
-[^1]: footnote
+A Node.js app runs in a single process, without creating a new thread for every request.
 
-==mark==
-^sup^ ~sub~
-~~wrong~~ **bold** *italic* ***bold and italic***
-[[kbd]] --small-- _underline_
-++insert++[WZ]
-!!delete!![WZ]
-
-*[HTML]: Hyper Text Markup Language
-
-Term 1
-
-:   Definition 1
-
-Term 2 with *inline markup*
-
-:   Definition 2
-
-        { some code, part of Definition 2 }
-
-    Third paragraph of definition 2.
+> Node.js provides a set of asynchronous I/O primitives in its standard library that prevent JavaScript code from blocking and generally, libraries in Node.js are written using non-blocking paradigms, making blocking behavior the exception rather than the norm.
 
 
-- [x] checkbox
+# What is JavaScript?
 
-|   Markdown   | Rendered HTML |
-|--------------|---------------|
-|    *Italic*  | *Italic*      | \
-|              |               |
-|    - Item 1  | - Item 1      | \
-|    - Item 2  | - Item 2      |
-|    ```python | ```python       \
-|    .1 + .2   | .1 + .2         \
-|    ```       | ```           |
+JavaScript is a scripting language that enables you to dynamically update content, control multimedia, animate images, and pretty much everything else.
 
-```html
-<!DOCTYPE html>
-<html>
-<head>
-	...
-	<link href="https://{{cdn}}/prism@v1.x/themes/prism.css" rel="stylesheet" />
-</head>
-<body>
-	...
-	<script src="https://{{cdn}}/prism@v1.x/components/prism-core.min.js"></script>
-	<script src="https://{{cdn}}/prism@v1.x/plugins/autoloader/prism-autoloader.min.js"></script>
-</body>
-</html>
-```
+Store useful values inside variables. In the above example for instance, we ask for a new name to be entered then store that name in a variable called name
+

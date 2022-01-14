@@ -23,20 +23,7 @@ body {
   font-variant-ligatures: normal;
 }
 
-a {
-  color: var(--link-color);
-}
-
-a:hover,
-a:focus {
-  background: var(--link-color);
-  color: var(--bg-color);
-}
-
-/* External link style */
-a[href*="//"]:not([href*="mysite.com"])::after {
-  content: "⬈"
-}
+/* Head Tags */
 
 h1 {
   font-size: 3rem;
@@ -67,10 +54,36 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.1em;
 }
 
-p {
+.header-anchor {
+  color: var(--font-color);
+  text-decoration: underline var(--link-color);
+}
+
+.header-anchor:hover {
+  color: var(--font-color)
+}
+
+p, code, dt {
   font-size: 1.3rem;
   margin-bottom: 1em;
   line-height: 1.6em;
+}
+
+/* Link Style */
+
+a {
+  color: var(--link-color);
+}
+
+a:hover,
+a:focus {
+  background: var(--link-color);
+  color: var(--bg-color);
+}
+
+a[href*="//"]:not([href*="mysite.com"])::after {
+  /* External link style */
+  content: "⬈"
 }
 
 /* List Style */
@@ -105,7 +118,36 @@ ul ul ul {
   list-style: square;
 }
 
-/* Table of Content */
+dl {
+  border-collapse: collapse;
+}
+
+dt {
+  background: var(--font-color);
+  color: var(--bg-color);
+}
+
+dd, dt {
+  border: 2px solid var(--font-color);
+  padding: .3em;
+}
+
+/* Table Style */
+
+th, td {
+  border: 2px solid var(--font-color);
+  padding: .3em;
+  font-size: 1.3rem;
+  margin-bottom: 0;
+}
+
+th {
+  font-weight: bold;
+  background: var(--font-color);
+  color: var(--bg-color);
+  text-align: center;
+  margin-bottom: 0;
+}
 
 /* Word Style */
 
@@ -127,10 +169,12 @@ mark {
 }
 
 sub {
+  font-size: 1rem;
   vertical-align: sub;
 }
 
 sup {
+  font-size: 1rem;
   vertical-align: super;
 }
 
@@ -160,4 +204,9 @@ blockquote p {
 
 blockquote p::before, blockquote p::after {
   content: '"'
+}
+
+code {
+  padding: .2em;
+  background: #34495e;
 }
