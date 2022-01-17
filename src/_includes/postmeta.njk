@@ -10,8 +10,15 @@
 			{% else %}
 				{% readingTime post.data.content %}
 			{% endif %} |
-		Tags:
-			{%- for tag in post.data.tags | filterTagList -%}
+			Tags:
+
+			{% if tags[0] == 'posts' %}
+				{% set list = tags %}
+			{% else %}
+				{% set list = post.data.tags %}
+			{% endif %}
+
+			{%- for tag in list | filterTagList -%}
 				 {%- set tagUrl %}{{ tag | slug }}/{% endset -%}
 				 <a href="/{{ tagUrl | url }}">{{ tag }}</a>&nbsp;
 			 {%- endfor %}

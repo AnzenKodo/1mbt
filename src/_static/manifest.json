@@ -9,7 +9,7 @@
   "lang": "en-US",
   "font": "JetBrains Mono",
   "repository": "https://github.com/AnzenKodo/io-note",
-	"theme_color": "#f9cb10",
+  "theme_color": "#f9cb10",
   "background_color": "#2C3E50",
   "font_color": "#ECF0F1",
   "display": "minimal-ui",
