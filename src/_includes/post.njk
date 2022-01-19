@@ -2,14 +2,8 @@
 {% if tags[0] == "posts" %}
 	{% set post = page %}
 	{% include 'postmeta.njk' %}
-	<figure style="
-		border: 1px solid var(--link-color);
-		padding: 1em;
-		width: 20em;
-		font-weight: bolder;
-		margin-bottom: 1em;
-	">
-		<figcaption>Table of Content</figcaption>
+	<figure class="table-of-content">
+		<figcaption class="table-of-content--title">Table of Content</figcaption>
 		{{ content | toc | safe }}
 	</figure>
 {% endif %}

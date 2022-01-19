@@ -1,8 +1,5 @@
 {# Shows the date & time on post section. #}
-<p style="
-		font-size: 1rem;
-		font-weight: 400;
-		">
+<p class="meta">
 		Date: {{ post.date | readableDate }} |
 		Reading Time:
 			{% if tags[0] == 'posts'%}

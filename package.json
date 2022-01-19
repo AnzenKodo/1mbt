@@ -15,7 +15,7 @@
     "@aloskutov/eleventy-plugin-external-links": "^1.1.1",
     "@chrisburnell/eleventy-cache-webmentions": "^0.1.9",
     "clean-css": "^5.2.2",
-    "eleventy-google-fonts": "^0.1.0",
+    "eleventy-google-fonts": "0.0.5",
     "eleventy-plugin-date": "^1.0.0",
     "eleventy-plugin-emoji": "^1.1.0",
     "eleventy-plugin-metagen": "^1.5.2",
@@ -36,5 +36,8 @@
     "markdown-it-sup": "^1.0.0",
     "markdown-it-task-checkbox": "^1.0.6",
     "markdown-it-underline": "^1.0.1"
+  },
+  "xo": {
+    "prettier": true
   }
 }
