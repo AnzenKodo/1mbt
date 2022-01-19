@@ -17,7 +17,7 @@
 }
 
 body {
-	font-family: system-ui;
+	font-family: 'M PLUS 2', Arial, sans-serif;
 	background: var(--bg-color);
 	color: var(--font-color);
 	font-variant-ligatures: normal;
