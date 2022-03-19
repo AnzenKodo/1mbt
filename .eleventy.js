@@ -27,12 +27,12 @@ module.exports = function (eleventyConfig) {
 	)
 
 	// WebMentions
-	eleventyConfig.addPlugin(
-		require('@chrisburnell/eleventy-cache-webmentions'),
-		{
-			domain: 'https://ionote.vercel.app' // This is required!
-		}
-	)
+	// eleventyConfig.addPlugin(
+	// 	require('@chrisburnell/eleventy-cache-webmentions'),
+	// 	{
+	// 		domain: 'https://ionote.vercel.app' // This is required!
+	// 	}
+	// )
 	// An accessible emoji shortcode and filter
 	eleventyConfig.addPlugin(require('eleventy-plugin-emoji'))
 
@@ -146,7 +146,7 @@ module.exports = function (eleventyConfig) {
 	return {
 		markdownTemplateEngine: 'njk',
 		htmlTemplateEngine: 'njk',
-		templateFormats: ['md', 'njk', 'html', 'liquid'],
+		templateFormats: ['md', 'njk', 'html'],
 		dir: {
 			input: 'src/_pages',
 			includes: '../../src/_includes',
