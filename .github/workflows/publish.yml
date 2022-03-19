@@ -3,7 +3,9 @@
 
 name: Publishing website on Github Pages
 
-on: [ push ]
+on:
+  workflow_dispatch:
+  push:
 
 jobs:
   build:
