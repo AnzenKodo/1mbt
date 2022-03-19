@@ -1,0 +1,22 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "11ty Minimalist Blog Theme",
+  "language": "en-US",
+  "home_page_url": "https://ionote.vercel.app/",
+  "feed_url": "https://ionote.vercel.app//feed.json",
+  "description": "The Eleventy static site generator theme for minimalist.",
+  "author": {
+		"name": "AnzenKodo",
+		"website": https://anzenkodo.github.io/AnzenKodo
+		"email": "AnzenKodo@altmails.com"
+  },
+  "items": [
+    {
+      "id": "https://ionote.vercel.app/This-is-something.html",
+      "url": "https://ionote.vercel.app/This-is-something.html",
+      "title": "This is something",
+      "content_html": "asdfasdf\n# daf\n<img src=\"https://ionote.vercel.app/photo.jpg\" />\n\n",
+      "date_published": "2022-03-19T13:16:49Z"
+    }
+  ]
+}

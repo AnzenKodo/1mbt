@@ -1,0 +1,205 @@
+::selection {
+	color: var(--link-color);
+	background: var(--font-color);
+}
+
+::-webkit-scrollbar {
+	border: 1px solid var(--font-color);
+	width: 1rem;
+}
+
+::-webkit-scrollar-track {
+	background: var(--link-color);
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--link-color);
+}
+
+body {
+	font-family: 'M PLUS 2', Arial, sans-serif;
+	background: var(--bg-color);
+	color: var(--font-color);
+	font-variant-ligatures: normal;
+	accent-color: var(--font-color);
+	font-size: 100%;
+}
+
+.base {
+	max-width: 40em;
+	height: 95vh;
+	margin: auto;
+}
+
+p,
+code,
+dt,
+li {
+	font-size: 1.3rem;
+	line-height: 1.6em;
+}
+
+img {
+	max-width: 100%;
+}
+
+.header--title {
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	line-height: 0;
+}
+
+.header--nav {
+	margin-top: 0.7rem;
+}
+
+.meta {
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 0;
+	margin: 0.5em 0 1.5em 0;
+	font-weight: 400;
+}
+
+.table-of-content {
+	border: 1px solid var(--link-color);
+	padding: 1em;
+	width: 20em;
+	margin: 2rem auto;
+}
+
+.table-of-content--title {
+	font-size: 1.2rem;
+	font-weight: bolder;
+}
+
+.table-of-content li {
+	margin: 0;
+}
+
+.go-to-the-top {
+	text-align: right;
+}
+
+/* Head Tags */
+
+.header-anchor {
+	color: var(--font-color);
+	text-decoration: underline var(--link-color);
+}
+
+.header-anchor:hover {
+	color: var(--font-color);
+}
+
+/* Link Style */
+
+a {
+	color: var(--link-color);
+}
+
+a:hover,
+a:focus {
+	background: var(--link-color);
+	color: var(--bg-color);
+}
+
+a[href*="//"]:not([href*="mysite.com"])::after
+{
+	/* External link style */
+	content: '⬈';
+}
+
+/* List Style */
+
+dl {
+	border-collapse: collapse;
+}
+
+dt {
+	background: var(--font-color);
+	color: var(--bg-color);
+	font-weight: bold;
+}
+
+dd,
+dt {
+	margin-left: 0;
+	border: 2px solid var(--font-color);
+	padding: 0 0.5em;
+}
+
+/* Checkbox */
+.task-list-item {
+	list-style: none;
+	margin-left: 0;
+}
+
+input[type='checkbox'] {
+	appearance: none;
+	margin-right: 0.5rem;
+}
+
+input[type='checkbox']::before {
+	content: '⬜';
+	font-size: 1rem;
+}
+
+input[type='checkbox']:checked::before {
+	content: '☑️';
+}
+
+/* Table Style */
+table {
+	border-spacing: 0;
+}
+
+th,
+td {
+	border: 2px solid var(--font-color);
+	padding: 0.3em;
+	font-size: 1.3rem;
+	border-spacing: 0;
+}
+
+th {
+	font-weight: bold;
+	background: var(--font-color);
+	color: var(--bg-color);
+	text-align: center;
+}
+
+/* Word Style */
+
+kbd {
+	background: var(--font-color);
+	color: var(--bg-color);
+	padding: 0.1em;
+	border: 2px solid var(--font-color);
+	border-radius: 10px;
+}
+
+/* Block Style */
+
+blockquote {
+	border: 0.1em solid var(--font-color);
+	border-left: solid 1em var(--link-color);
+	padding-left: 0.5rem;
+	font-style: italic;
+}
+
+blockquote p {
+	margin: 0.5rem;
+}
+
+blockquote p::before,
+blockquote p::after {
+	content: '"';
+}
+
+code {
+	padding: 0.2em;
+	background: #34495e;
+}
